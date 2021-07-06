@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-covariance",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Compute an unbiased sample covariance incrementally.",
   "license": "Apache-2.0",
   "author": {
