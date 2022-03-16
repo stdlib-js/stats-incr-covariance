@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-covariance",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Compute an unbiased sample covariance incrementally.",
   "license": "Apache-2.0",
   "author": {
@@ -39,6 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-number": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
