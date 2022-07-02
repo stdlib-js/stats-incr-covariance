@@ -81,7 +81,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrcovariance;
+})();
 })();
 </script>
 ```
@@ -148,6 +150,7 @@ v = accumulator();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-covariance@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var accumulator;
 var x;
@@ -165,6 +168,7 @@ for ( i = 0; i < 100; i++ ) {
 }
 console.log( accumulator() );
 
+})();
 })();
 </script>
 </body>
@@ -264,11 +268,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance/tree/umd
+[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance/tree/umd/tree/umd
 
-[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/umd
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/umd/tree/umd
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/umd
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
