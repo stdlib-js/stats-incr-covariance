@@ -78,7 +78,7 @@ For known population means, the [unbiased sample covariance][covariance] is defi
 ## Usage
 
 ```javascript
-import incrcovariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-covariance@esm/index.mjs';
+import incrcovariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-covariance@v0.2.0-esm/index.mjs';
 ```
 
 #### incrcovariance( \[mx, my] )
@@ -142,7 +142,7 @@ v = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrcovariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-covariance@esm/index.mjs';
+import incrcovariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-covariance@v0.2.0-esm/index.mjs';
 
 var accumulator;
 var x;
